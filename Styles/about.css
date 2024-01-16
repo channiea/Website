@@ -5,13 +5,10 @@ body {
     text-align: center;
 }
 
-ul{
-    text-align: left;
-}
-
 a{
     color:grey;
     text-decoration: none;
+    text-align:left;
 }
 
 a:hover{

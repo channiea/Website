@@ -2,20 +2,35 @@ body {
     background-color: black;
     color:rgb(67, 68, 69);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a{
-    color:grey
+    text-align:center;
 }
 
 h1 {
     color: grey;
     font-style: italic;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
-    font-size: 75px;
+    font-size: 50px;
+    text-align:left;
 }
 
 h2{
     color:grey;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
+    font-size:75px;
+    text-align:center;
+}
+
+#top{
+    color:rgb(1, 52, 65);
+    text-align:right;
+}
+
+a:hover{
+    color:rgb(24, 98, 24)
+}
+
+a{
+    color:grey;
+    text-decoration: none;
+    text-align:left;
 }

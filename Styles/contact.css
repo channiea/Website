@@ -5,7 +5,13 @@ body {
 }
 
 a{
-    color:grey
+    color:grey;
+    text-decoration: none;
+    text-align:left;
+}
+
+a:hover{
+    color:rgb(24, 98, 24)
 }
 
 h1 {
@@ -18,4 +24,11 @@ h1 {
 h2{
     color:grey;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
+    font-size:75px;
+    text-align:center;
+}
+
+#top{
+    color:rgb(1, 52, 65);
+    text-align:right;
 }
