@@ -1,15 +1,48 @@
+/*{
+    font-size: 100%
+}*/
+a{
+    color:grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(24, 98, 24)
+}
+
 body {
     background-color: black;
     color:rgb(67, 68, 69);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+main{
+    text-align:center;
+}
+
+p{
+    line-height: 2;
+}
+
 h1 {
     color: grey;
-    font-style: italic;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-style:italic;
+    font-size: 150px;
+    text-align:center;
 }
+
+header ul{
+    text-align:left;
+}
+
 h2{
     color:grey;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
+}
+
+#top{
+    color:rgb(1, 52, 65);
+    text-align:right;
+    font-weight:bold;
 }
