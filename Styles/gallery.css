@@ -5,6 +5,20 @@ body {
     text-align:center;
 }
 
+header ul{
+    text-align:center;
+    border: 1px solid grey;
+    height:20%;
+    padding:20px;
+    font-size: 20px;
+}
+
+li{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+
 h1 {
     color: grey;
     font-style: italic;
@@ -20,6 +34,11 @@ h2{
     text-align:center;
 }
 
+img{
+    border: 1px solid grey;
+    margin:30px;
+}
+
 #top{
     color:rgb(1, 52, 65);
     text-align:right;
@@ -33,4 +52,8 @@ a{
     color:grey;
     text-decoration: none;
     text-align:left;
+}
+
+.navigation{
+    display:inline-block;
 }

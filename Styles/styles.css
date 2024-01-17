@@ -1,6 +1,9 @@
-/*{
-    font-size: 100%
-}*/
+*{
+/*border:1px solid red;*/
+margin:0;
+line-height:1;
+}
+
 a{
     color:grey;
     text-decoration: none;
@@ -14,6 +17,7 @@ body {
     background-color: black;
     color:rgb(67, 68, 69);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    Margin:50px;
 }
 
 main{
@@ -22,6 +26,7 @@ main{
 
 p{
     line-height: 2;
+    margin-top:10px;
 }
 
 h1 {
@@ -30,19 +35,36 @@ h1 {
     font-style:italic;
     font-size: 150px;
     text-align:center;
+    padding:50px;
 }
 
 header ul{
-    text-align:left;
+    text-align:center;
+    border: 1px solid grey;
+    height:20%;
+    padding:20px;
+    font-size: 20px;
+}
+
+li{
+    padding-left:100px;
+    padding-right:100px;
 }
 
 h2{
     color:grey;
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
+    font-size:50px;
+    margin:100px;
 }
 
 #top{
     color:rgb(1, 52, 65);
     text-align:right;
     font-weight:bold;
+    padding:30px;
+}
+
+.navigation{
+    display:inline-block;
 }
