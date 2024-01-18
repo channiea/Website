@@ -15,9 +15,9 @@ a:hover{
 
 body {
     background-color: black;
-    color:rgb(67, 68, 69);
+    color:rgb(230, 235, 240);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    Margin:50px;
+    margin:10px;
 }
 
 main{
@@ -30,10 +30,10 @@ p{
 }
 
 h1 {
-    color: grey;
+    color: rgb(99, 98, 97);
     font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
     font-style:italic;
-    font-size: 150px;
+    font-size: 200px;
     text-align:center;
     padding:50px;
 }
@@ -44,6 +44,7 @@ header ul{
     height:20%;
     padding:20px;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 li{
@@ -58,6 +59,10 @@ h2{
     margin:100px;
 }
 
+div{
+    margin: 0 auto;
+}
+
 #top{
     color:rgb(1, 52, 65);
     text-align:right;
@@ -67,4 +72,24 @@ h2{
 
 .navigation{
     display:inline-block;
+}
+
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    background-size:100%;
+}
+
+.headingphoto{
+    background-image: url(../Images/398021409_6708211069285748_32377131898192601_n.jpg);
+    width:1400px;
+    height: 300px;
+    margin: 0 auto;
+    background-repeat:no-repeat;
+}
+
+.banner{
+    background-image: url(../Images/david-jorre-oQbLeq4nOek-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
