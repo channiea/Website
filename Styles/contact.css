@@ -50,3 +50,16 @@ h2{
 .navigation{
     display:inline-block;
 }
+
+.inquiry{
+    color:grey;
+    font-family: 'Euphoria Script', cursive, Arial, Helvetica, sans-serif;
+    font-size:25px;
+    text-align:center;
+}
+
+p{
+    text-align:center;
+    color:grey;
+}
+

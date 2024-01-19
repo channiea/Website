@@ -82,14 +82,8 @@ div{
 
 .headingphoto{
     background-image: url(../Images/398021409_6708211069285748_32377131898192601_n.jpg);
-    width:1400px;
+    width:1400px; 
     height: 300px;
     margin: 0 auto;
     background-repeat:no-repeat;
-}
-
-.banner{
-    background-image: url(../Images/david-jorre-oQbLeq4nOek-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
 }
